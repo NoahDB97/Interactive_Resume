@@ -1,0 +1,85 @@
+body {
+    background-color: rgb(32,37,39);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: white;
+    text-align: left;
+    margin-left: 80px;
+}
+
+.BackgroundShape {
+    position: absolute;
+    z-index: -1; /*Tells the object to move behind other objects*/
+    top: 0; /*Puts the shape in the top left of the screen*/
+    left: 0;
+    width: 700px;
+    height: 130px;
+    background-color: #3a4665;
+}
+
+.WhiteLine {
+    position: absolute;
+    z-index: -1;
+    top: 140px; /* Moves it from the top DOWN */
+    left: 70px; /* Moves it from the left RIGHT */
+    width: 3px;
+    height: 800px;
+    background-color: white;
+    border-radius: 50%;
+}
+
+.Statement {
+    background-color: rgb(53, 54, 58);
+}
+
+nav a {
+    border:2px solid white;
+    box-shadow: 5px 5px 10px rgba(0,0,0,0.2);;
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    display: inline;
+    text-align: center;
+    margin-right: 50px;
+}
+
+img {
+    border-radius: 80%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.Logo {
+    border-radius: 0%;
+    float: left;
+}
+
+h1 {
+    font-size: 250%;
+    text-align: left;
+}
+
+.columnleft {
+    float: left;
+    width: 25%;
+    padding: 3%;
+    box-shadow: 5px 5px 10px rgba(0,0,0,0.2);
+}
+
+ #Skills {
+     font-size: 125%;
+ }
+
+ .SkillArea {
+    border-radius: 2%;
+    padding: 2px;
+    background-color: rgb(53, 54, 58);
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+.columnright {
+    float: left;
+    width: 61%;
+    background-color: rgb(32,37,39);
+    padding: 3%;
+    box-shadow: 5px 5px 10px rgba(0,0,0,0.2);
+}
